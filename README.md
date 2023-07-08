@@ -1,1 +1,1 @@
-# my-collge
+my-college
