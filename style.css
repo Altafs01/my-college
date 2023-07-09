@@ -1,0 +1,76 @@
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-image:url(https://png.pngtree.com/thumb_back/fh260/back_our/20190620/ourmid/pngtree-final-battle-college-graduation-graduation-poster-design-image_145858.jpg);
+    background-repeat: no-repeat;
+    background-position: center
+    
+}
+
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+     /* border: 2px solid black; */
+}
+
+.navbar ul li{
+    /* list-style: none; */
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+  
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase
+}
+
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: red;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+.content{
+    width: 100%;
+    /* position: absolute; */
+    /* top: 50%; */
+    text-align: center;
+    color: white;
+}
+
+.content h1{
+    font-size: 70px;
+    margin-top: 80px;
+}
+
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+    font-size: large;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    
+    color: white     
+}
